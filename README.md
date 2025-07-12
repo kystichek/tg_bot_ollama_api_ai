@@ -20,6 +20,12 @@
 
 ### **AI-Model Installation**
 
+if you use Linux you befor installation you will be need run in terminal
+
+`ollama serve`
+
+then
+
 `ollama run gemma3:4b`
 
 ## **Start bot file**
