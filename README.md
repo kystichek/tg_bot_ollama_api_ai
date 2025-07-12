@@ -40,4 +40,4 @@
    `python3 bot.py`
 
 ### Other
-  if you want use other AI model you can watch they on [ollama website](https://ollama.com/search)M
+  if you want use other AI model you can watch they on [ollama website](https://ollama.com/search)
