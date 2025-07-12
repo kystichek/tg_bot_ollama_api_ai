@@ -1,14 +1,13 @@
 import requests
 import logging
 
-# 🧠 История сообщений по каждому пользователю
+
 user_histories = {}
 
 def ask_ollama(prompt: str, user_id: int, model: str = "gemma3:4b") -> str:
     history = user_histories.get(user_id, [])
     history.append({"role": "user", "content": prompt})
 
-    # 💡 Ограничим историю последними 10 сообщениями
     history = history[-10:]
     user_histories[user_id] = history
 
